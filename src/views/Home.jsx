@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 export default function Home() {
   return (
     <>
-        <div style={{fontFamily: 'Roboto Mono'}} className='w-full h-1vh bg-[#91FFB2]' >
+        <div style={{fontFamily: 'Roboto Mono'}} className='w-full h-lvh bg-[#91FFB2]' >
             {/* ส่วนบน */}
             <div className='w-8/12  mx-auto flex py-20 justify-between'>
                 {/* ส่วนที่ 1 */}
