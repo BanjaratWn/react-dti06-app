@@ -8,9 +8,9 @@ import { Link } from 'react-router-dom'
 export default function Home() {
   return (
     <>
-        <div style={{fontFamily: 'Roboto Mono'}} className='w-full h-lvh bg-[#91FFB2]' >
+        <div style={{fontFamily: 'Roboto Mono'}} className='w-full min-h-screen bg-[#91FFB2]' >
             {/* ส่วนบน */}
-            <div className='w-8/12  mx-auto flex py-20 justify-between'>
+            <div className='w-9/12 mx-auto flex py-10 justify-between'>
                 {/* ส่วนที่ 1 */}
                 <div className='flex flex-col mr-20'>
                     <div>
@@ -35,30 +35,30 @@ export default function Home() {
                             Follow Me
                         </a>
                     </div>
-                    <div className='mt-15 flex'>
+                    <div className='mt-20 flex'>
                         <Link to="/MyPageA">
-                            <img src={img1} alt="img1" className='w-51.5 h-min mr-5' />
+                            <img src={img1} alt="img1" className='w-70 h-min mr-10' />
                         </ Link>
                         <Link to="/MyPageB">
-                            <img src={img2} alt="img2" className='w-53 h-min' />
+                            <img src={img2} alt="img2" className='w-70.5 h-min' />
                         </ Link>
                     </div>
                 </div>
                 {/* ส่วนที่ 2 */}
-                <div className='mr-10'>
+                <div>
                     <Link to="/MyPageC">
-                        <img src={img4} alt="img4" className='w-67'/>
+                        <img src={img4} alt="img4" className='w-50.5'/>
                     </Link>
                 </div>
                 {/* ส่วนที่ 3 */}
                 <div>
                     <Link to="/MyPageD">
-                        <img src={img3} alt="img3" className='w-40.5 h-min'/>
+                        <img src={img3} alt="img3" className='w-30.5 h-min'/>
                     </Link>
                 </div>
             </div>
             {/* ส่วนล่าง */}
-            <div className='flex flex-col items-center justify-center text-lg'>
+            <div className='flex flex-col items-center justify-center text-lg py-2'>
                 <span>(รูปและเนื้อหาทั้งหมดใช้เพื่อการศึกษาเท่านั้น)</span>
                 <span>Create by Yuu</span>
                 <span>Copyright © 2025 HE HE HE</span>
