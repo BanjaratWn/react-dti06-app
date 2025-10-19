@@ -109,16 +109,16 @@ export default function MyPageC() {
               ดิฉันมองมองหาโอกาสใหม่ๆ อยู่เสมอ ทั้งกสรพัฒนาฟอนต์เอนต์ แบล็กเอนต์ การออกแบบ UX/UI ฐานข้อมูล
             </p>
             <p style={{ fontFamily: "inter" }} className="text-white text-xl mt-10 flex gap-5">
-              <a className="border-2 border-[#484848] px-10 py-4 rounded-full" href="#">HTML</a>
-              <a className="border-2 border-[#484848] px-10 py-4 rounded-full" href="#">CSS</a>
-              <a className="border-2 border-[#484848] px-10 py-4 rounded-full" href="#">JAVASCRIPT</a>
-              <a className="border-2 border-[#484848] px-10 py-4 rounded-full" href="#">FLUTTER</a>
+              <p className="border-2 border-[#484848] px-10 py-4 rounded-full">HTML</p>
+              <p className="border-2 border-[#484848] px-10 py-4 rounded-full">CSS</p>
+              <p className="border-2 border-[#484848] px-10 py-4 rounded-full">JAVASCRIPT</p>
+              <p className="border-2 border-[#484848] px-10 py-4 rounded-full">FLUTTER</p>
             </p>
             <p style={{ fontFamily: "inter" }} className="text-white text-xl mt-5 flex gap-5">
-              <a className="border-2 border-[#484848] px-10 py-4 rounded-full" href="#">DART</a>
-              <a className="border-2 border-[#484848] px-10 py-4 rounded-full" href="#">IoT</a>
-              <a className="border-2 border-[#484848] px-10 py-4 rounded-full" href="#">REACT</a>
-              <a className="border-2 border-[#484848] px-10 py-4 rounded-full" href="#">DATABASE</a>
+              <p className="border-2 border-[#484848] px-10 py-4 rounded-full">DART</p>
+              <p className="border-2 border-[#484848] px-10 py-4 rounded-full">IoT</p>
+              <p className="border-2 border-[#484848] px-10 py-4 rounded-full">REACT</p>
+              <p className="border-2 border-[#484848] px-10 py-4 rounded-full">DATABASE</p>
             </p>
           </div>
         </div>
