@@ -161,12 +161,12 @@ export default function MyPageD() {
         <div className='w-10/12 mx-auto text-center pb-3 mt-10'>
           <h1 style={{fontFamily: 'sansita swashed'}} className='text-7xl font-bold'>Explore More</h1>
           <div style={{fontFamily: 'poppins'}} className='text-3xl text-[#5d5d5d] font-semibold mt-20 flex justify-center gap-10'>
-            <a className='border-b-4 border-[#933C24]' href="#">Cake</a>
-            <a href="#">Muffins</a>
-            <a href="#">Croissant</a>
-            <a href="#">Bread</a>
-            <a href="#">Tart</a>
-            <a href="#">Favorite</a>
+            <p className='border-b-4 border-[#933C24]' href="#">Cake</p>
+            <p href="#">Muffins</p>
+            <p href="#">Croissant</p>
+            <p href="#">Bread</p>
+            <p href="#">Tart</p>
+            <p href="#">Favorite</p>
           </div>
         </div>
 
